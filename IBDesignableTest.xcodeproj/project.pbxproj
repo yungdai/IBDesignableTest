@@ -13,6 +13,7 @@
 		1A9204DA1B373A160046EFE7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9204D91B373A160046EFE7 /* Images.xcassets */; };
 		1A9204DD1B373A160046EFE7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A9204DB1B373A160046EFE7 /* LaunchScreen.xib */; };
 		1A9204E91B373A160046EFE7 /* IBDesignableTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9204E81B373A160046EFE7 /* IBDesignableTestTests.swift */; };
+		1A9204F41B373A6D0046EFE7 /* ColorBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9204F31B373A6D0046EFE7 /* ColorBlockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		1A9204E21B373A160046EFE7 /* IBDesignableTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBDesignableTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9204E71B373A160046EFE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A9204E81B373A160046EFE7 /* IBDesignableTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBDesignableTestTests.swift; sourceTree = "<group>"; };
+		1A9204F31B373A6D0046EFE7 /* ColorBlockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorBlockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		1A9204CF1B373A160046EFE7 /* IBDesignableTest */ = {
 			isa = PBXGroup;
 			children = (
+				1A9204F21B373A460046EFE7 /* Model */,
 				1A9204D21B373A160046EFE7 /* AppDelegate.swift */,
 				1A9204D41B373A160046EFE7 /* ViewController.swift */,
 				1A9204D61B373A160046EFE7 /* Main.storyboard */,
@@ -110,6 +113,14 @@
 				1A9204E71B373A160046EFE7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A9204F21B373A460046EFE7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A9204F31B373A6D0046EFE7 /* ColorBlockView.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A9204F41B373A6D0046EFE7 /* ColorBlockView.swift in Sources */,
 				1A9204D51B373A160046EFE7 /* ViewController.swift in Sources */,
 				1A9204D31B373A160046EFE7 /* AppDelegate.swift in Sources */,
 			);
